@@ -1,102 +1,67 @@
 # Azure Data Platform End2End (V2)
 
-En este taller aprenderá sobre los conceptos principales relacionados con la analítica avanzada y el procesamiento de Big Data y cómo se pueden utilizar Azure Data Services para implementar una arquitectura de almacenamiento de datos moderna. Aprenderá qué servicios de Azure puede aprovechar para establecer una plataforma de datos sólida para ingerir, procesar y visualizar rápidamente datos de una gran variedad de fuentes de datos. Se ha demostrado que la arquitectura de referencia que creará como parte de este ejercicio le brinda la flexibilidad y escalabilidad para crecer y manejar grandes volúmenes de datos y mantener un nivel óptimo de rendimiento.
+En este taller aprenderá sobre los conceptos principales relacionados con la analítica avanzada y el procesamiento de Big Data y cómo se puede utilizar Azure Data Services para implementar una arquitectura de almacenamiento de datos moderna. Así mismo Aprenderá qué servicios de Azure puede aprovechar para establecer una plataforma de datos sólida para ingerir, procesar y visualizar rápidamente datos de una gran variedad de fuentes de datos. Se ha demostrado que la arquitectura de referencia que creará como parte de este ejercicio le brinda la flexibilidad y escalabilidad para crecer y manejar grandes volúmenes de datos y mantener un nivel óptimo de rendimiento.
 
 En los ejercicios de este laboratorio, creará canalizaciones de datos utilizando datos relacionados con la ciudad de Nueva York. El taller fue diseñado para implementar progresivamente una arquitectura de plataforma de datos moderna extendida a partir de una canalización de datos relacionales tradicional. Luego presentamos escenarios de big data con archivos de datos grandes y computación distribuida. Agregamos datos no estructurados e inteligencia artificial a la mezcla y terminamos con análisis de transmisión en tiempo real. Habrá hecho todo eso al final del taller.
 
-In the exercises in this lab you will build data pipelines using data related to New York City. The workshop was designed to progressively implement an extended modern data platform architecture starting from a traditional relational data pipeline. Then we introduce big data scenarios with large data files and distributed computing. We add non-structured data and AI into the mix and finish off with real-time stream analytics. You will have done all of that by the end of the workshop.
+## Workshop Agenda Propuesta
+El taller se puede completar a su propio ritmo dependiendo de su experiencia previa con las herramientas de Azure DP. Las diapositivas de apoyo están disponibles para cada formato.
 
-
-## Workshop Proposed Agenda
-The workshop can be completed on your own pace depending on your previous experince with the Azure DP tools. Supporting slides are available for each format.
-
-### **1-Day Format**
+### **1-Día Formato**
 
 #### Slides: [Azure Data Platform End2End - 1 Day](Slides/Azure%20Data%20Platform%20End2End%20-%201Day.pptx)
 
-Activity | Duration
+Actividad | Duración
 -------- | ---------
-Workshop Overview | 15 minutes
-Modern Data Platform Concepts: Part I | 15 minutes
-**Modern Data Warehousing** |
-Lab 1: Load Data into Azure Synapse Analytics using Azure Data Factory Pipelines    | 45 minutes
-Modern Data Platform Concepts: Part II | 15 minutes
-Lab 2: Transform Big Data using Azure Data Factory Mapping Data Flows    | 60 minutes
+Resumen del taller | 15 minutos
+Conceptos de la plataforma de datos moderna: Parte I | 15 minutos
+**Almacenamiento de datos moderno** |
+Lab 1: Carga de datos en Azure Synapse Analytics mediante Azure Data Factory Pipelines    | 45 minutos
+Conceptos de la plataforma de datos moderna: Parte II | 15 minutos
+Lab 2: Transformar macrodatos utilizando Azure Data Factory & Mapping Data Flows    | 60 minutos
 **Advanced Analytics** |
-Modern Data Platform Concepts: Part III | 15 minutes
-Lab 3: Explore Big Data using Azure Databricks    | 45 minutes
-Modern Data Platform Concepts: Part IV | 15 minutes
-Lab 4: Add AI to your Big Data Pipeline with Cognitive Services    | 75 minutes
+Conceptos de la plataforma de datos moderna: Parte III | 15 minutes
+Lab 3:  Explore Big Data con Azure Databricks    | 45 minutes
+Conceptos de la plataforma de datos moderna: Parte IV | 15 minutes
+Lab 4: Agregue IA a su Pipeline de Big Data con Cognitive Services    | 75 minutes
 **Real-time Analytics** |
-Modern Data Platform Concepts: Part V | 15 minutes
-Lab 5: Ingest and Analyse real-time data with Event Hubs and Stream Analytics   | 45 minutes
-
-### **2-Day Format**
-
-The workshop content will be delivered over the course of two days with the following agenda:
-
-#### Slides: [Azure Data Platform End2End - 2 Day](./Slides/Azure%20Data%20Platform%20End2End%20-%202Day.pptx)
-
-### **Day 1**
-
-Activity | Duration
--------- | ---------
-Workshop Overview | 45 minutes
-Lab 0: Deploy Azure Data Platform End2End to your subscription | 30 minutes
-Modern Data Platform Concepts: Part I | 90 minutes
-**Modern Data Warehousing** |
-Lab 1: Load Data into Azure Synapse Analytics using Azure Data Factory Pipelines    | 45 minutes
-Modern Data Platform Concepts: Part II | 90 minutes
-Lab 2: Transform Big Data using Azure Data Factory and Azure Synapse Analytics    | 60 minutes
-
-### **Day 2**
-
-Activity | Duration
--------- | ---------
-**Advanced Analytics** |
-Modern Data Platform Concepts: Part III | 60 minutes
-Lab 3: Explore Big Data using Azure Databricks    | 45 minutes
-Modern Data Platform Concepts: Part IV | 60 minutes
-Lab 4: Add AI to your Big Data Pipeline with Cognitive Services    | 75 minutes
-**Real-time Analytics** |
-Modern Data Platform Concepts: Part V | 60 minutes
-Lab 5: Ingest and Analyse real-time data with Event Hubs and Stream Analytics   | 45 minutes
-
+Conceptos de la plataforma de datos moderna: Parte V | 15 minutes
+Lab 5: Ingesta y analiza datos en tiempo real con Event Hubs y Stream Analytics   | 45 minutes
 
 **IMPORTANT**:
 
-* The reference architecture proposed in this workshop aims to explain just enough of the role of each of the Azure Data Services included in the overall modern data platform architecture. This workshop does not replace the need of in-depth training on each Azure service covered.
+* La arquitectura de referencia propuesta en este taller tiene como objetivo explicar lo suficiente del papel de cada uno de los servicios de datos de Azure incluidos en la arquitectura general de la plataforma de datos moderna. Este taller no reemplaza la necesidad de capacitación en profundidad sobre cada servicio de Azure cubierto.
 
-* The services covered in this course are only a subset of a much larger family of Azure services. Similar outcomes can be achieved by leveraging other services and/or features not covered by this workshop. Specific business requirements may require the use of different services or features not included in this workshop.
+* Los servicios cubiertos en este curso son solo un subconjunto de una familia mucho más grande de servicios de Azure. Se pueden lograr resultados similares aprovechando otros servicios y / o características que no se cubren en este taller. Los requisitos comerciales específicos pueden requerir el uso de diferentes servicios o características que no se incluyen en este taller.
 
-* Some concepts presented in this course can be quite complex and you may need to seek more information from different sources to compliment your understanding of the Azure services covered.
+* Algunos conceptos presentados en este curso pueden ser bastante complejos y es posible que deba buscar más información de diferentes fuentes para complementar su comprensión de los servicios de Azure cubiertos.
 
 ![](./Media/ModernDataPlatformReferenceArchitecture.jpg)
 
 ### Azure Synapse Analytics
 
-Microsoft recently announced Azure Synapse Analytics as the evolution of Azure SQL Data Warehouse, blending big data, data warehousing, and data integration into a single service for end-to-end analytics at cloud scale. This reference architecture and workshop content will be updated as announced features in the roadmap become publicly available. For more information please visit: https://azure.microsoft.com/en-au/services/synapse-analytics/
+Microsoft anunció recientemente Azure Synapse Analytics como la evolución de Azure SQL Data Warehouse, que combina big data, almacenamiento de datos e integración de datos en un solo servicio para análisis de extremo a extremo a escala de la nube. Esta arquitectura de referencia y el contenido del taller se actualizarán a medida que las características anunciadas en la hoja de ruta estén disponibles públicamente. Para obtener más información, visite: https://azure.microsoft.com/en-au/services/synapse-analytics/
 
 ![](./Media/AzureSynapse.png)
 
-## Document Structure
-This document contains detailed step-by-step instructions on how to implement a Modern Data Platform architecture using Azure Data Services. It’s recommended you carefully read the detailed description contained in this document for a successful experience with all Azure services. 
+## Estructura del documento
+Este documento contiene instrucciones detalladas paso a paso sobre cómo implementar una arquitectura de plataforma de datos moderna mediante Azure Data Services. Se recomienda que lea atentamente la descripción detallada contenida en este documento para tener una experiencia exitosa con todos los servicios de Azure. 
 
-You will see the label **IMPORTANT** whenever a there is a critical step to the lab. Please pay close attention to the instructions given.
+Verá la etiqueta IMPORTANTE siempre que haya un paso crítico en el laboratorio. Preste mucha atención a las instrucciones dadas.
 
-You will also see the label **IMPORTANT** at the beginning of each lab section. As some instructions need to be executed on your host computer while others need to be executed in a remote desktop connection (RDP), this **IMPORTANT** label states where you should execute the lab section. See example below:
+También verá la etiqueta IMPORTANTE al comienzo de cada sección de laboratorio. Como algunas instrucciones deben ejecutarse en su computadora host, mientras que otras deben ejecutarse en una conexión de escritorio remoto (RDP), esta etiqueta IMPORTANTE indica dónde debe ejecutar la sección de laboratorio. Vea el ejemplo a continuación:
 
-**IMPORTANT**|
+**IMPORTANTE**|
 -------------|
-**Execute these steps on your host computer**|
+**Ejecute estos pasos en su computadora host**|
 
-## Data Source References
-New York City data used in this lab was obtained from the New York City Open Data website: https://opendata.cityofnewyork.us/. The following datasets were used:
+## Referencias de fuentes de datos
+Los datos de la ciudad de Nueva York utilizados en este laboratorio se obtuvieron del sitio web de datos abiertos de la ciudad de Nueva York: https://opendata.cityofnewyork.us/. Se utilizaron los siguientes conjuntos de datos
     <br>- NYPD Motor Vehicle Collisions: https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
     <br>- TLC Yellow Taxi Trip Data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-## Lab Prerequisites and Deployment
-The following prerequisites must be completed before you start these labs:
+## Implementación y requisitos previos del laboratorio
+Se deben completar los siguientes requisitos previos antes de comenzar con estos labs:
 
 * You must be connected to the internet;
 
