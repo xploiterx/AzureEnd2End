@@ -59,6 +59,7 @@ También verá la etiqueta IMPORTANTE al comienzo de cada sección de laboratori
 Los datos de la ciudad de Nueva York utilizados en este laboratorio se obtuvieron del sitio web de datos abiertos de la ciudad de Nueva York: https://opendata.cityofnewyork.us/. Se utilizaron los siguientes conjuntos de datos
     <br>- NYPD Motor Vehicle Collisions: https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95
     <br>- TLC Yellow Taxi Trip Data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Para lograr compartir este taller a las masas y brindar una experiencia real pero rentable en terminos de costo que permita el acceso a este tipo de recursos y conocimientos Azure trabajaremos con el 0.01% del tamaño de la datos para reducir considerablemnte los costos de este tipo de servicios ya que de lo contrario este taller tendría un costo mucho más elevado.
 
 ## Implementación y requisitos previos del laboratorio
 Se deben completar los siguientes requisitos previos antes de comenzar con estos labs:
