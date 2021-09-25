@@ -253,7 +253,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
     ![](./Media/Lab1-Image38.png)
 
 3.	On the **New Data Set** tab, enter the following details:
-    <br>- **Name**: NYCDataSets_MotorVehicleCollisions
+    <br>- **Name**: NYCDataSets_MotorVehicleCollisions_suffix
     <br>- **Linked Service**: OperationalSQL_NYCDataSets
     <br>- **Table**: [NYC].[NYPD_MotorVehicleCollisions]
 
@@ -290,7 +290,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
     ![](./Media/Lab1-Image40.png)
 
 6.	On the **New Data Set** tab, enter the following details:
-    <br>- **Name**: SynapseDW_MotorVehicleCollisions
+    <br>- **Name**: SynapseDW_MotorVehicleCollisions_suffix
     <br>- **Linked Service**: SynapseSQL_SynapseDW
     <br>- **Table**: [NYC].[NYPD_MotorVehicleCollisions]
 
@@ -322,7 +322,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
 
     ![](./Media/Lab1-Image41.png)
 
-8. Under **Factory Resources** tab, click the ellipsis **(…)** next to **Datasets** and then click **New folder** to create a new Folder. Name it **Lab1**.
+8. Under **Factory Resources** tab, click the ellipsis **(…)** next to **Datasets** and then click **New folder** to create a new Folder. Name it **Lab1_suffix**.
 
 9. Drag the two datasets created into the **Lab1** folder you just created.
 
@@ -340,12 +340,12 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
 
 1.	Open the **Azure Data Factory** portal and click the **Author *(pencil icon)*** option on the left-hand side panel. Under **Factory Resources** tab, click the ellipsis **(…)** next to **Pipelines** and then click **New Pipeline** to create a new pipeline.
 2.	On the **New Pipeline** tab, enter the following details:
-    <br>- **General > Name**: Lab1 - Copy Collision Data
+    <br>- **General > Name**: Lab1 - Copy_Collision_Data_suffix
 3.	Leave remaining fields with default values.
 
     ![](./Media/Lab1-Image43.png)
 
-4.	From the **Activities** panel, type “Copy Data” in the search box. Drag the **Copy Data** activity on to the design surface.
+4.	From the **Move & transform** panel, Drag the **Copy Data** activity on to the design surface.
 5.	Select the **Copy Data** activity and enter the following details:
     <br>- **General > Name**: CopyMotorVehicleCollisions
     <br>- **Source > Source dataset**: NYCDataSets_MotorVehicleCollisions
