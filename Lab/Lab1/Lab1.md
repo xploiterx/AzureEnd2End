@@ -348,11 +348,11 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
 4.	From the **Move & transform** panel, Drag the **Copy Data** activity on to the design surface.
 5.	Select the **Copy Data** activity and enter the following details:
     <br>- **General > Name**: CopyMotorVehicleCollisions
-    <br>- **Source > Source dataset**: NYCDataSets_MotorVehicleCollisions
-    <br>- **Sink > Sink dataset**: SynapseDW_MotorVehicleCollisions
+    <br>- **Source > Source dataset**: NYCDataSets_MotorVehicleCollisions_suffix
+    <br>- **Sink > Sink dataset**: SynapseDW_MotorVehicleCollisions_suffix
     <br>- **Sink > Allow PolyBase**: Checked
     <br>- **Settings > Enable staging**: Checked
-    <br>- **Settings > Staging account linked service**: synapsedatalake
+    <br>- **Settings > Staging account linked service**: synapsedatalake_suffix
     <br>- **Settings > Storage Path**: polybase
 6.	Leave remaining fields with default values.
 
