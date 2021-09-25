@@ -115,14 +115,14 @@ In this section you will connect to Azure Synapse Analytics to create the databa
 5.	On the new query window, create a new database schema named [NYC]. Use this SQL Command:
 
 ```sql
-create schema [NYC]
+create schema [NYCsuffix]
 go
 ```
 
 6.	Create a new round robin distributed table named NYC.NYPD_MotorVehicleCollisions, see column definitions on the SQL Command:
 
 ```sql
-create table [NYC].[NYPD_MotorVehicleCollisions](
+create table [NYCsuffix].[NYPD_MotorVehicleCollisions](
 	[UniqueKey] [int] NULL,
 	[CollisionDate] [date] NULL,
 	[CollisionDayOfWeek] [varchar](9) NULL,
