@@ -188,7 +188,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
     ![](./Media/Lab1-Image30.png)
 
 3.	On the **New Linked Service (Azure SQL Database)** blade, enter the following details:
-    <br>- **Name**: OperationalSQL_NYCDataSets
+    <br>- **Name**: OperationalSQL_NYCDataSets_suffix
     <br>- **Account selection method**: From Azure subscription
     <br>- **Azure subscription**: *[your subscription]*
     <br>- **Server Name**: operationalsql-*suffix*
@@ -206,7 +206,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
     ![](./Media/Lab1-Image32.png)
 
 6.	On the New Linked Service (Azure Synapse Analytics) blade, enter the following details:
-    <br>- **Name**: SynapseSQL_SynapseDW
+    <br>- **Name**: SynapseSQL_SynapseDW_suffix
     <br>- **Connect via integration runtime**: AutoResolveIntegrationRuntime
     <br>- **Account selection method**: From Azure subscription
     <br>- **Azure subscription**: *[your subscription]*
@@ -224,7 +224,7 @@ In this section you will build an Azure Data Factory pipeline to copy a table fr
     ![](./Media/Lab1-Image34.png)
 
 9.	On the **New Linked Service (Azure Blob Storage)** blade, enter the following details:
-    <br>- **Name**: synapsedatalake
+    <br>- **Name**: synapsedatalake_suffix
     <br>- **Connect via integration runtime**: AutoResolveIntegrationRuntime
     <br>- **Authentication method**: Account key
     <br>- **Account selection method**: From Azure subscription
